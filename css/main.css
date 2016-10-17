@@ -1,0 +1,25 @@
+body {
+    background-color: #c0d6e1;
+    color: #5b5a6c;
+	transition: background-color 5s;
+	font-size: 1.5em;
+}
+body.colored {
+	background-color: #dce1c0;
+	transition: background-color 5s;
+}
+
+h1,h2,h3 {
+    color: #f27c5e;
+    font-family: 'Reenie Beanie', cursive;
+}
+h1 {font-size: 4em}
+h2 {font-size: 3em}
+h3 {font-size: 2em}
+
+a {
+    color: #5b5a6c;
+}
+a:hover{
+    color: #f27c5e;
+}

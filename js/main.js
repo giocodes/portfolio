@@ -1,4 +1,4 @@
-// window.setInterval(newColor,8000);
+window.setInterval(newColor,10000);
 $('body').hover(newColor);
 let startingColor = true;
 function newColor(){

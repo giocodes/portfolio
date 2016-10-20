@@ -15,8 +15,8 @@ body.colored {
     height: 95%;
     margin: 1.5% 2.5%;
     padding: 5%;
-    background-color: #c4d6d6;
-    background-image: url(../img/fold.png);
+    background-color: #FFFFFF;
+    /*background-image: url(../img/fold.png);*/
     background-position: 100% 100%;
     background-size: 2.5%;
     background-repeat: no-repeat;

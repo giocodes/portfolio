@@ -1,0 +1,69 @@
+body {
+    height: 100vh;
+    color: #424a61;
+    font-size: 1.5em;
+    transition: background-color 5s;
+    background-color: #424a61;
+    font-size: 2.5em;
+}
+body.colored {
+    background-color: #435c95;
+    transition: background-color 5s;
+}
+#wrapper {
+    width: 95%;
+    height: 95%;
+    margin: 1.5% 2.5%;
+    padding: 5%;
+    background-color: #FFFFFF;
+    /*background-image: url(../img/fold.png);*/
+    background-position: 100% 100%;
+    background-size: 2.5%;
+    background-repeat: no-repeat;
+}
+
+h1,h2,h3 {
+    color: #435c95;
+    font-family: 'Reenie Beanie', cursive;
+}
+h1 {font-size: 4em}
+h2 {font-size: 2.5em}
+h3 {font-size: 2em}
+
+a {
+    color: #5b5a6c;
+}
+a:hover{
+    color: #f27c5e;
+}
+#portfolio span{
+    font-size: .8em;
+}
+#portfolio img{
+    margin: 40px 0px;
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+li{
+    background-image: url(../img/todo.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 0px 5px;
+    padding-left: 31px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.list-group-item{
+    background-color: none !important;
+
+}
+
+#contact img{
+    width: 20px;
+    height: 20px;
+}

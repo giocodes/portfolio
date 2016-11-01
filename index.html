@@ -1,82 +1,87 @@
 <!doctype html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
-    <meta name="description" content="">
+    <title>Sergio Gomez | Full Stack Developer</title>
+    <meta name="description" content="Software Engineer Chicago, IL">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+    </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- FAVICON -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#435c95">
-    <meta name="theme-color" content="#ffffff">
-    <!-- FAVICON END -->
-
-    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <div id="wrapper">
-     <section>
-      <div id="name" class="col-md-12">
-       <h1>Notes on Sergio Gomez</h1>
-      </div>
-     </section>
-     <section>
-      <div class="col-sm-4 col-xs-12">
-       <h2>Software Engineer</h2>
-       <p>specialized in Javascript:</p>
-       <ul class="col-xs-6 col-xs-offset-4 col-sm-10 col-sm-offset-0">
-         <li>Node</li>
-         <li>Express</li>
-         <li>Angular </li>
-         <li>React</li>
-         <li>and all that good stuff...</li>
-       </ul>
-      </div>
-      <div id="portfolio" class="col-sm-6">
-       <h2>Look</h2>
-       <p>at his latest projects</p>
-       <div class="project col-xs-12 row">
-        <a href="http://github.com/giocodes/helloCodeJS">
-          <div class="col-xs-3 row"><img src="./img/nodes.svg" alt="helloCodeJS"></div>
-          <div class="col-xs-9 row">
-            <h3>helloCodeJS</h3>
-            <p>awesome static code visualizer</p>
-            <span><p>github.com/giocodes/helloCodeJS</p></span>
-          </div>
-        </a>
-       </div>
-       <div class="project col-xs-12 row">
-         <a href="http://github.com/giocodes/vr-beats">
-           <div class="col-xs-3 row"><img src="./img/music.svg" alt="VR Beats"></div>
-           <div class="col-xs-9 row">
-            <h3>VR Beats</h3>
-            <p>3D beatbox</p>
-            <p>github.com/giocodes/vr-beats</p>
-           </div>
-         </a>
-       </div>
-      </div>
-      <div id="contact" class="col-sm-2">
-       <h2>Reach</h2>
-       <p><a href="https://www.linkedin.com/in/sergioigomez">
-       <!-- <img src="./img/linkedin.svg" alt="Linkedin">  -->
-       sergioigomez</a></p>
-       <p><a href="https://twitter.com/Sigrone">
-       <!-- <img src="./img/twitter.svg" alt="Twitter">  -->
-       @giocodes</a></p>
-       <p><a href="https://www.github.com/giocodes">
-       <!-- <img src="./img/github.svg" alt="Github">  -->
-       giocodes</a></p>
-      </div>
-     </section>
-    </div>
+    <aside class="col-sm-3">
+        <div class="profile">
+            <h2>Sergio Gomez</h2>
+            <h1>Software Engineer</h1>
+            <h3>Full Stack Javascript</h3>
+            <div class="contact">
+                <a href="https://www.linkedin.com/in/sergioigomez">
+                    <p>Linkedin: sergioigomez</p>
+                </a>
+                <a href="https://github.com/giocodes/">
+                    <p>GirHub: giocodes</p>
+                </a>
+                <a href="https://twitter.com/Sigrone">
+                    <p>Twitter: @sigrone</p>
+                </a>
+            </div>
+        </div>
+    </aside>
+    <section class="col-sm-9">
+        <!-- ITEM #2 -->
+        <div class="item col-sm-6">
+            <div class="item-image" style="background-image: url('./img/nodes.svg')">
+                <div class="item-title">HelloCodeJS</div>
+            </div>
+            <div class="item-text">
+                <p>Awesome static code visualizer</p>
+                <p>Node | React</p>
+                <p><a target="_blank" href="http://hellocodejs.com/">Live Demo</a> | <a target="_blank" href="http://vimeo.com/188202051">Play Video</a></p>
+            </div>
+        </div>
+        <!-- ITEM #1 -->
+        <div class="item col-sm-6">
+            <div class="item-image" style="background-image: url('./img/vr.svg')">
+                <div class="item-title">VR Beats</div>
+            </div>
+            <div class="item-text">
+                <p>3D Beatbox</p>
+                <p>PaperJS | HowlerJS</p>
+                <p><a target="_blank" href="https://github.com/giocodes/vr-beats">Source</a> | <a target="_blank" href="https://github.com/giocodes/vr-beats">Images</a></p>
+            </div>
+        </div>
+        <!-- ITEM #3 -->
+        <div class="item col-sm-6">
+            <div class="item-image" style="background-image: url('./img/chart.svg')">
+                <div class="item-title">Framework Wars</div>
+            </div>
+            <div class="item-text">
+                <p>Activity Comparison Tool</p>
+                <p>Github API | ChartJS</p>
+                <p><a target="_blank" href="https://giocodes.github.io/FrameworkWars/">Live Demo</a> | <a target="_blank" href="https://github.com/giocodes/FrameworkWars/">Source</a></p>
+            </div>
+        </div>
+        <!-- ITEM #4 -->
+        <div class="item col-sm-6">
+            <div class="item-image" style="background-image: url('./img/loading.svg')">
+                <div class="item-title">Coming Soon</div>
+            </div>
+            <div class="item-text">
+                <p>In the meantime</p>
+                <p>Contact me</p>
+                <p><a target="_blank" href="https://www.linkedin.com/in/sergioigomez">Linkedin</a> | <a target="_blank" href="https://twitter.com/Sigrone">Twitter</a></p>
+            </div>
+        </div>
+        <div class="footer col-sm-12">
+            <h3>I also love food, <a href="https://www.instagram.com/sigrone/">photography</a> and running</h3>
+        </div>
+    </section>
     <!-- /container -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -91,4 +96,5 @@
       ga('send', 'pageview');
     </script>
 </body>
+
 </html>

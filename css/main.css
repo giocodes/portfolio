@@ -1,4 +1,85 @@
+html,
+body,
+aside {
+    min-height: 100%;
+}
+
 body {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    color: #8c8787;
+}
+
+a:hover {
+    color: #b73350;
+}
+
+@media (min-width: 768px) {
+    aside {
+        min-height: 110vh !important;
+        background-color: #333;
+        color: white;
+    }
+    .profile {
+        position: fixed;
+        width: 25%;
+        text-align: left;
+    }
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.vertical-align {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.item {
+    margin: 10px 0;
+}
+
+.item-title {
+    position: absolute;
+    bottom: 35%;
+    left: 25%;
+    width: 50%;
+    font-family: Arial;
+    font-size: 150%;
+}
+
+.item-image {
+    height: 210px;
+    background-color: #808080;
+    color: white;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 50% 35%;
+}
+
+.item-image:hover {
+    background-color: #b73350;
+}
+
+.item-text {
+}
+.footer {
+    color: #999;
+}
+
+
+/*body {
     height: 100vh;
     color: #424a61;
     font-size: 1.5em;
@@ -16,7 +97,7 @@ body.colored {
     margin: 1.5% 2.5%;
     padding: 5%;
     background-color: #FFFFFF;
-    /*background-image: url(../img/fold.png);*/
+    /*background-image: url(../img/fold.png);
     background-position: 100% 100%;
     background-size: 2.5%;
     background-repeat: no-repeat;
@@ -66,4 +147,4 @@ li{
 #contact img{
     width: 20px;
     height: 20px;
-}
+}*/

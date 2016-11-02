@@ -1,78 +1,99 @@
+// Themes
+@import "themes.less";
+// @link-color-hover: darken(@link-color, 10%);
 html,
 body,
 aside {
-  min-height: 100%;
+    min-height: 100%;
 }
+
 body {
-  text-align: center;
-  font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
 }
+
 a {
-  color: #808080;
+    color: @link-color;
 }
+
 a:hover {
-  color: #b73350;
+    color: @link-color-hover;
 }
+
 @media (min-width: 768px) {
-  aside {
-    min-height: 110vh !important;
-    background-color: #444655;
-    color: white;
-  }
-  .profile {
-    position: fixed;
-    width: 25%;
-    text-align: left;
-  }
+    aside {
+        min-height: 110vh !important;
+        background-color: @background-dark;
+        color: white;
+    }
+    .profile {
+        position: fixed;
+        width: 25%;
+        text-align: left;
+    }
 }
+
 .contact {
-  margin-top: 20px;
+    margin-top: 20px;
 }
+
 .vertical-align {
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
+
 .item {
-  margin: 10px 0;
+    margin: 10px 0;
 }
+
 .item-title {
-  position: absolute;
-  bottom: 35%;
-  left: 25%;
-  width: 50%;
-  font-family: Arial;
-  font-size: 150%;
+    position: absolute;
+    bottom: 35%;
+    left: 25%;
+    width: 50%;
+    font-family: Arial;
+    font-size: 150%;
 }
+
 .item-image {
-  height: 210px;
-  background-color: #5c5a5b;
-  color: white;
-  font-weight: bold;
-  background-repeat: no-repeat;
-  background-size: 25%;
-  background-position: 50% 35%;
+    height: 210px;
+    background-color: @background-light;
+    color: white;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: 50% 35%;
 }
-.image-color-1:hover {
-  background-color: #6d7790;
+
+.image-color {
+    &-1:hover {
+        background-color: @item-color1;
+    }
+    &-2:hover {
+        background-color: @item-color2;
+    }
+    &-3:hover {
+        background-color: @item-color3;
+    }
+    &-4:hover {
+        background-color: @item-color4;
+    }
+    // background-color: #b73350;
 }
-.image-color-2:hover {
-  background-color: #cab28e;
-}
-.image-color-3:hover {
-  background-color: #89886a;
-}
-.image-color-4:hover {
-  background-color: #e6d6bd;
-}
+
+.item-text {}
+
 .footer {
-  color: #999;
+    color: #999;
 }
+
+
 /*body {
     height: 100vh;
     color: #424a61;

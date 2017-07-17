@@ -1,0 +1,82 @@
+{
+  "categories": {
+    "projects": [
+      {
+        "name": "Memorable JS, Coming Soon",
+        "description": "Javascript memorable events timeline",
+        "tags": ["React", "Firebase"],
+        "url" : "github.com/giocodes",
+        "label" : "Live Demo"
+      },
+      {
+        "name": "HelloCodeJs",
+        "description": "Awesome static code visualizer",
+        "tags": ["Node", "React"],
+        "url" : "github.com/giocodes",
+        "label" : "Live Demo"
+      },
+      {
+        "name": "Framework Wars",
+        "description": "GitHub Reputation comparison tool",
+        "tags": ["GitHub API", "ChartJS"],
+        "url" : "github.com/giocodes",
+        "label" : "Live Demo"
+      },
+      {
+        "name": "Guest Calendar",
+        "description": "Responsive Single Page",
+        "tags": ["Angular", "UI/UX"],
+        "url" : "github.com/giocodes",
+        "label" : "Live Demo"
+      },
+      {
+        "name": "VR Beats",
+        "description": "3D Beatbox",
+        "tags": ["PaperJS", "HowlerJS"],
+        "url" : "github.com/giocodes",
+        "label" : "Live Demo"
+      }
+
+    ],
+    "experience": [
+      {
+        "name": "Tech Talk: Future Javascript",
+        "description": "That Conference, WI",
+        "tags": ["Javascript", "ES6, ES7, ES.Next", "ECMAScript"]
+      },
+      {
+        "name": "Exclusive Traveler Club",
+        "description": "Loyalty Program",
+        "tags": ["UX", "ES2015", "PM"]
+      },
+      {
+        "name": "Booking Hello",
+        "description": "Online Reservation",
+        "tags": ["UX", "ES2015", "eCommerce"]
+      }
+
+    ]
+  },
+  "profile": {
+    "skills": {
+      "back": ["Node", "PHP"],
+      "db": ["SQL", "Sequelize", "Firebase"],
+      "front": ["Angular", "React"]
+    },
+    "name": "Sergio Gomez",
+    "title": "Full Stack Javascript",
+    "subtitle": "Software Engineer",
+    "links": [
+      {
+        "name": "Linkedin",
+        "label": "sergioigomez",
+        "url": "sergioigomez"
+      },
+      {
+        "name": "Twitter",
+        "label": "sigrone",
+        "url": "@sigrone"
+      }
+    ]
+  }
+}

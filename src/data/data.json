@@ -5,44 +5,50 @@
         "name": "Memorable JS, Coming Soon",
         "description": "Javascript memorable events timeline",
         "tags": ["React", "Firebase"],
-        "url" : "github.com/giocodes",
-        "label" : "Live Demo"
+        "url": "https://giocodes.github.io/memorable/",
+        "label": "Live Demo"
       },
       {
         "name": "HelloCodeJs",
         "description": "Awesome static code visualizer",
         "tags": ["Node", "React"],
-        "url" : "github.com/giocodes",
-        "label" : "Live Demo"
+        "url": "https://github.com/giocodes/helloCodeJS/",
+        "label": "GitHub Source"
       },
       {
         "name": "Framework Wars",
         "description": "GitHub Reputation comparison tool",
         "tags": ["GitHub API", "ChartJS"],
-        "url" : "github.com/giocodes",
-        "label" : "Live Demo"
+        "url": "https://github.com/giocodes/FrameworkWars",
+        "label": "Live Demo"
       },
       {
         "name": "Guest Calendar",
         "description": "Responsive Single Page",
         "tags": ["Angular", "UI/UX"],
-        "url" : "github.com/giocodes",
-        "label" : "Live Demo"
+        "url": "https://github.com/giocodes/guest-calendar",
+        "label": "Live Demo"
       },
       {
         "name": "VR Beats",
         "description": "3D Beatbox",
         "tags": ["PaperJS", "HowlerJS"],
-        "url" : "github.com/giocodes",
-        "label" : "Live Demo"
+        "url": "https://github.com/giocodes/vr-beats",
+        "label": "Live Demo"
       }
-
     ],
     "experience": [
       {
+        "name": "Backstop Solutions",
+        "description": "React JS Team Lead",
+        "tags": ["React", "ES.Next", "SPA", "JSON API"],
+        "url": "http://www.backstopsolutions.com/"
+      },
+      {
         "name": "Tech Talk: Future Javascript",
         "description": "That Conference, WI",
-        "tags": ["Javascript", "ES6, ES7, ES.Next", "ECMAScript"]
+        "tags": ["Javascript", "ES.Next", "ECMAScript"],
+        "url": "https://www.thatconference.com/sessions/session/11471"
       },
       {
         "name": "Exclusive Traveler Club",
@@ -51,31 +57,36 @@
       },
       {
         "name": "Booking Hello",
-        "description": "Online Reservation",
+        "description": "Online Reservations",
         "tags": ["UX", "ES2015", "eCommerce"]
       }
-
     ]
   },
   "profile": {
-    "skills": {
-      "back": ["Node", "PHP"],
-      "db": ["SQL", "Sequelize", "Firebase"],
-      "front": ["Angular", "React"]
-    },
+    "skills": [
+      { "name": "Frontend", "items": ["Angular", "React", "UI/UX"] },
+      { "name": "Product", "items": ["Product Development", "Agile"] },
+      { "name": "Backend", "items": ["Node", "PHP"] },
+      { "name": "DataBases", "items": ["SQL", "Sequelize", "Firebase"] }
+    ],
     "name": "Sergio Gomez",
-    "title": "Full Stack Javascript",
+    "title": "Full Stack Developer",
     "subtitle": "Software Engineer",
     "links": [
       {
         "name": "Linkedin",
         "label": "sergioigomez",
-        "url": "sergioigomez"
+        "url": "https://www.linkedin.com/in/sergioigomez"
+      },
+      {
+        "name": "GitHub",
+        "label": "giocodes",
+        "url": "https://github.com/giocodes/"
       },
       {
         "name": "Twitter",
         "label": "sigrone",
-        "url": "@sigrone"
+        "url": "https://twitter.com/Sigrone"
       }
     ]
   }

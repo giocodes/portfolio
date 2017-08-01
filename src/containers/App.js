@@ -9,13 +9,14 @@ const phrases = [
   'Why so serious?',
   'Much better!',
   'Wow! 😎',
-  'Daba dee, daba da'
+  'Daba dee, daba da',
+  'Do that again!'
 ];
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      color: 0,
+      color: [0,0],
       pristine: true
     };
     this.newColors = this.newColors.bind(this);
@@ -35,7 +36,7 @@ class App extends Component {
           categories={categories}
           skills={profile.skills}
           newColors={this.newColors}
-          phrase={phrases[this.state.color]}
+          phrase={phrases[this.state.color[0]]}
           pristine={this.state.pristine}
         />
       </main>

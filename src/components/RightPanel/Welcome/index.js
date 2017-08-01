@@ -8,7 +8,11 @@ const Welcome = ({ className, newColors, phrase, pristine }) => {
         <br />
         <h2>So you want to know more about me huh...</h2>
         <h3 className="fw2 color2">
-          {pristine ? 'Well you\'re in luck! (click)' : phrase}
+          {pristine
+            ? <div>
+                Well you're in luck, <span className="color1">click here</span>
+              </div>
+            : phrase}
         </h3>
       </div>
     </section>

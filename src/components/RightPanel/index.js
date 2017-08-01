@@ -10,15 +10,28 @@ const S = {
 };
 const RightPanel = ({ categories, skills, newColors, phrase, pristine }) => {
   return (
-    <div className="pa3">
+    <div className="pa4">
       <Welcome
         className={
-          'pa3 h-25 flex items-center justify-around bg-animate bg-color4 color1'
+          'pa3 flex items-center justify-around bg-animate bg-color4 color1'
         }
         newColors={newColors}
         phrase={phrase}
         pristine={pristine}
       />
+      <div
+        style={{
+          height: '25rem',
+          backgroundImage: 'url(\'./chicago.jpg\')',
+          backgroundSize: 'cover',
+          display: 'flex',
+          alignItems: 'flex-end',
+          padding: '2rem'
+
+        }}
+      >
+        <h1 className="fw2 color1">Chicago</h1>
+      </div>
       <Skills
         className={`${S.section} bg-animate bg-color1 color2`}
         name={'Skills and Interests'}
@@ -29,6 +42,19 @@ const RightPanel = ({ categories, skills, newColors, phrase, pristine }) => {
         name={'Experience'}
         projects={categories.experience}
       />
+      <div
+        style={{
+          height: '20rem',
+          backgroundImage: 'url(\'./world-traveler.jpg\')',
+          backgroundSize: 'cover',
+          display: 'flex',
+          alignItems: 'flex-end',
+          padding: '2rem'
+
+        }}
+      >
+        <h1 className="fw2 color1">🎶</h1>
+      </div>
       <Projects
         className={`${S.section} bg-animate bg-color1 color2`}
         name={'Coding for fun'}

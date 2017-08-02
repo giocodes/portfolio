@@ -7,7 +7,7 @@ const Experience = ({ projects, name, className }) => {
       <h2>
         {name}
       </h2>
-      <div className="flex flex-wrap justify-between">
+      <div className="flex-m flex-l flex-wrap justify-between">
         {projects.map((item, idx) => <ProjectCard key={idx} details={item} />)}
       </div>
     </section>

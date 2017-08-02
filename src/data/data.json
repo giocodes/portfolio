@@ -2,7 +2,7 @@
   "categories": {
     "projects": [
       {
-        "name": "Memorable JS, Coming Soon",
+        "name": "Memorable JS",
         "description": "Javascript memorable events timeline",
         "tags": ["React", "Firebase"],
         "url": "https://giocodes.github.io/memorable/",

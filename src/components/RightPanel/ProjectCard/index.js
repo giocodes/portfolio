@@ -5,7 +5,7 @@ const ProjectCard = ({ details }) => {
   return (
     <div className="pa1 flex-45">
       <a rel="noopener noreferrer" target="_blank" href={url}>
-        <div className="ba b--black-10 pa3">
+        <div className="ba b--black-10 pa3 word-wrap">
           <h1 className="color4">
             {name}
           </h1>

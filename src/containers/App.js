@@ -30,7 +30,7 @@ class App extends Component {
   }
   render() {
     return (
-      <main className="flex color4 bg-animate bg-color1">
+      <main className="flex-l color4 bg-animate bg-color1">
         <LeftPanel profile={profile} />
         <RightPanel
           categories={categories}

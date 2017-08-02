@@ -7,7 +7,7 @@ const Experience = ({ name, skills, className }) => {
       <h2>
         {name}
       </h2>
-      <div className="flex flex-wrap justify-between">
+      <div className="flex-m flex-l flex-wrap justify-between">
         {skills.map((item, idx) =>
           <div key={idx} className={'flex-45 tc mv4'}>
             <h1 className="fw6 mv2 color3">

@@ -6,7 +6,7 @@ import Skills from './Skills/';
 import Hobbies from './Hobbies/';
 
 const S = {
-  section: 'pa4'
+  section: 'pa4-l pa3-m pa2'
 };
 const RightPanel = ({ categories, skills, newColors, phrase, pristine }) => {
   return (
@@ -27,7 +27,6 @@ const RightPanel = ({ categories, skills, newColors, phrase, pristine }) => {
           display: 'flex',
           alignItems: 'flex-end',
           padding: '2rem'
-
         }}
       >
         <h1 className="fw2 color1">Chicago</h1>
@@ -50,7 +49,6 @@ const RightPanel = ({ categories, skills, newColors, phrase, pristine }) => {
           display: 'flex',
           alignItems: 'flex-end',
           padding: '2rem'
-
         }}
       >
         <h1 className="fw2 color1">🎶</h1>

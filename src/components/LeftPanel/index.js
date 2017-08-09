@@ -22,8 +22,8 @@ const LeftPanel = ({ profile }) => {
           </strong>
         </div>
         {links.map(link =>
-          <div className={styles.col25}>
-            <p key={link.name} className="mv4">
+          <div className={styles.col25} key={link.name}>
+            <p className="mv4">
               <a className="no-underline" href={link.url} target="_blank">
                 {link.name} <span className="b color4">{link.label}</span>
               </a>

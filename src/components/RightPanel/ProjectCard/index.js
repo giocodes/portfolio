@@ -3,9 +3,9 @@ import React from 'react';
 const ProjectCard = ({ details }) => {
   const { name, description, tags, url, label } = details;
   return (
-    <div className="pa1 flex-45">
+    <div className="pa1 flex-50">
       <a rel="noopener noreferrer" target="_blank" href={url}>
-        <div className="ba b--black-10 pa3 word-wrap">
+        <div className="ba b--black-10 pa3 word-wrap bg-color1">
           <h1 className="color4">
             {name}
           </h1>

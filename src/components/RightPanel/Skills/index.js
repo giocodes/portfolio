@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Experience = ({ name, skills, className }) => {
-  console.log(skills);
   return (
     <section className={className}>
       <h2>
@@ -9,7 +8,7 @@ const Experience = ({ name, skills, className }) => {
       </h2>
       <div className="flex-m flex-l flex-wrap justify-between">
         {skills.map((item, idx) =>
-          <div key={idx} className={'flex-45 tc mv4'}>
+          <div key={idx} className={'flex-45 tc mv4 pv4 bg-color2'}>
             <h1 className="fw6 mv2 color3">
               {item.name}
             </h1>

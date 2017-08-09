@@ -34,8 +34,18 @@ a {
     border-left: 30px solid var(--color2)
   }
 }
-  .flex-45 {
+  .flex-50 {
     flex: 0 1 50%;
+    min-width: 0; /* 1 */
+    min-height: 0; /* 1 */
+  }
+  .flex-45 {
+    flex: 0 1 45%;
+    min-width: 0; /* 1 */
+    min-height: 0; /* 1 */
+  }
+  .flex-40 {
+    flex: 0 1 40%;
     min-width: 0; /* 1 */
     min-height: 0; /* 1 */
   }

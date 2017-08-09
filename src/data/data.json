@@ -67,7 +67,7 @@
       { "name": "Frontend", "items": ["Angular", "React", "UI/UX"] },
       { "name": "Product", "items": ["Product Development", "Agile"] },
       { "name": "Backend", "items": ["Node", "PHP"] },
-      { "name": "DataBases", "items": ["SQL", "Sequelize", "Firebase"] }
+      { "name": "Databases", "items": ["SQL", "Sequelize", "Firebase"] }
     ],
     "name": "Sergio Gomez",
     "title": "Full Stack Developer",

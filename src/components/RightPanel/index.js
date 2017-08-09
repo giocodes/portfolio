@@ -13,7 +13,7 @@ const RightPanel = ({ categories, skills, newColors, phrase, pristine }) => {
     <div className="pa4">
       <Welcome
         className={
-          'pa3 flex items-center justify-around bg-animate bg-color4 color1'
+          'pa3 flex tc items-center justify-around bg-animate bg-color4 color1'
         }
         newColors={newColors}
         phrase={phrase}
@@ -51,7 +51,7 @@ const RightPanel = ({ categories, skills, newColors, phrase, pristine }) => {
           padding: '2rem'
         }}
       >
-        <h1 className="fw2 color1">🎶</h1>
+        <h1 className="fw2 color1"><span role="img" aria-label="Home">🎶</span></h1>
       </div>
       <Projects
         className={`${S.section} bg-animate bg-color1 color2`}

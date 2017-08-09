@@ -4,7 +4,7 @@ import ProjectCard from '../ProjectCard/';
 const Experience = ({ projects, name, className }) => {
   return (
     <section className={className}>
-      <h2>
+      <h2 className={'color1'}>
         {name}
       </h2>
       <div className="flex-m flex-l flex-wrap justify-between">

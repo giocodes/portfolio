@@ -12,13 +12,13 @@ const ProjectCard = ({ details }) => {
           <p className="color5">
             {description}
           </p>
-          <h2>
+          <h3>
             {tags.map(skill =>
               <span key={skill} className="mr2 fw2 color2">
                 {skill}
               </span>
             )}
-          </h2>
+          </h3>
           <p>
             {label}
           </p>

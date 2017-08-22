@@ -1,8 +1,8 @@
 import React from 'react';
 
 const styles = {
-  col25 : 'w-10-m w-10-ns'
-}
+  col25: 'w-10-m w-10-ns',
+};
 
 const LeftPanel = ({ profile }) => {
   const { name, title, links } = profile;
@@ -24,14 +24,13 @@ const LeftPanel = ({ profile }) => {
         {links.map(link =>
           <div className={styles.col25} key={link.name}>
             <p className="mv4">
-              <a className="no-underline" href={link.url} target="_blank">
-                {link.name} <span className="b color4">{link.label}</span>
-              </a>
+                <a className="no-underline" href={link.url} target="_blank">
+                  {link.name} <span className="sans color2">{link.label}</span>
+                </a>
             </p>
-          </div>
+          </div>,
         )}
       </div>
-      
     </aside>
   );
 };

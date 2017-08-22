@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Catamaran:200,400,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Lora', Times New Roman;
   background-color: var(--color1);
+}
+h1,h3,.sans {
+  font-family: 'Open Sans', Times New Roman;
 }
 
 a {
@@ -53,7 +57,7 @@ a {
 
 :root {
   --color1: rgba(229, 229, 229, 1);
-  --color2: rgba(171, 156, 159, 1);
+  --color2: rgb(63, 178, 187);
   --color3: rgba(103, 96, 96, 1);
   --color4: rgba(41, 42, 42, 1);
   --color5: rgba(14, 14, 14, 1);

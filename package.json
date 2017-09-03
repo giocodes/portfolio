@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "http://sigr.online",
+  "homepage": "https://giocodes.github.io/portfolio/",
   "private": true,
   "devDependencies": {
     "react-scripts": "1.0.10"

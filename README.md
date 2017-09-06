@@ -1,1 +1,1 @@
-Content for www.sigr.online 🎩
+Content for my personal website 🎩

@@ -11,7 +11,7 @@ class App extends Component {
   
   render() {
     return (
-      <main >
+      <main className="">
       <Header/>
       <Intro/>
       <Posts posts={posts}/>

@@ -1,13 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do');
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Handlee');
+
 body {
   font-family: var(--font-primary), sans-serif;
-  
+  background-color: var(--color1);
   color: var(--color5);
+}
+
+a {
+  color: var(--color5);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 .secondary {
@@ -22,28 +27,77 @@ body {
 
 .Header {
   float: right;
-  top: 0;
+  top: -10vh;
   width: 100%;
-  height: 3vh;
+  height: 10vh;
+  background-color: var(--color1);
+  color: var(--color5);
+  transition: 
+  background-color cubic-bezier(.45,.05,.55,.95) 1s,
+  top ease 1s;
 }
+.Header--Gone {
+  display: none;
+}
+.Header--Hidden {
+  position: fixed;
+  top: -10vh;
+  transition: 
+  top ease 1s,
+  box-shadow ease 1s;
+  background-color: var(--color5);
+  color: var(--color1);
+}
+.Header--Sticky {
+  position: fixed;
+  top: 0vh;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+  background-color: var(--color5);
+  color: var(--color1);
+}
+
+
 .Logo {
   flex: 1 0 60%;
+}
+.Logo__Border {
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .Navigation {
   margin: 0;
   flex: 1 0 40%;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 .Navigation__Item {
   list-style: none;
   margin-right: 16px;
 }
 
+.Light{
+  width: 2rem;
+  fill: var(--color2);
+}
+
+@media screen and (max-width: 30em) {
+  .Navigation, .Header--Sticky, .Header--Hidden {
+    display: none;
+  }
+}
+
+
 .Intro{
   height: 100vh;
-  background-image: url('../assets/background.jpg');
+  background-image: url('../assets/background-light.jpg');
   background-size: cover;
+  background-attachment: fixed;
+  transition: background-image 0.2s ease-in-out;
 }
 @media screen and (max-width: 30em) {
   .Intro {
@@ -53,12 +107,9 @@ body {
 
 
 .Intro--flex{
-  // border: 1px solid red;
   height: 100%;
   display: flex;
   flex-direction: column;
-  // justify-content: center;
-  // padding: 20rem 0;
 }
 
 .Post {
@@ -66,6 +117,10 @@ body {
 }
 
 
+#Projects {
+  background-color: var(--color2);
+  
+}
 .Project {
   flex: 1 0 100%;
 }
@@ -92,7 +147,6 @@ body {
 
 .About {
   min-height: 50vh;
-  background-color: var(--color2);
 }
 
 :root {
@@ -107,11 +161,11 @@ body {
 }
 
 /* ATOMIC */
-.color1 {color: var(--color1)}
-.color2 {color: var(--color2)}
-.color3 {color: var(--color3)}
-.color4 {color: var(--color4)}
-.color5 {color: var(--color5)}
+.color1 {color: var(--color1);fill: var(--color1)}
+.color2 {color: var(--color2);fill: var(--color2)}
+.color3 {color: var(--color3);fill: var(--color3)}
+.color4 {color: var(--color4);fill: var(--color4)}
+.color5 {color: var(--color5);fill: var(--color5)}
 
 .bg-color1 {background-color: var(--color1)}
 .bg-color2 {background-color: var(--color2)}

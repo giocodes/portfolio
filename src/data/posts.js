@@ -9,7 +9,7 @@ export default [
     id: 2,
     title: 'Docker & Node starter',
     link: 'https://github.com/giocodes/docker-node',
-    description: 'Docker is a great tool to ensure a consistent dev environment when sharing a project. Here´s a starter project get you up and running.',
+    description: 'Docker is a great tool to ensure a consistent dev environment when sharing a project. Here´s a project starter to get you up and running.',
   },
   {
     id: 3,

@@ -4,11 +4,11 @@ const Intro = () => {
   return (
     <div className="Intro">
       <div 
-      className="mw8 ph4 ph0-l pt4 pt0-m center cb Intro--flex justify-center-m justify-center-l"
+      className="mw8 ph4 ph0-l pt4 pt0-m center cb Intro--flex"
       >
           <h1 className="f3 fw1 dark-gray" >Sergio Gomez. Fullstack Engineer based in Chicago</h1>
-          <p className="f2 lh-title dark-gray">I enjoy <br/> working with</p>
-          <p className="f1 secondary mb7-m mb6-l white">Javascript</p>
+          <div className="f3 f2-m f2-l pt4 dark-gray">I enjoy working with</div>
+          <div className="f1 secondary pt4 dark-gray">Javascript</div>
       </div>
     </div>
   );

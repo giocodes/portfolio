@@ -39,16 +39,16 @@ const About = () => {
     <div id="About" className="About">
       <div className="mw8 ph4 ph0-l center cb mt2 pt6">
         <h2 className="f1 secondary ">About</h2>
-        <p className="f3 center mw7 lh-copy tc ">
+        <p className="f3 center mw7 tc" style={{lineHeight:'4rem'}}>
           I'm a Software Developer specialized in Full Stack Javascript; from
           Node to Angular/React with a project management background and passion
           for great UX design, leading teams from design to deployment through
           agile methodologies.
         </p>
-        <p className="f3 center mw7 lh-copy tc color1">
+        <p className="f3 center mw7 tc" style={{lineHeight:'4rem'}}>
           I also love traveling,{' '}
           <span>
-            <a className="color1" href="https://www.instagram.com/sigrone/">
+            <a className="color2" href="https://www.instagram.com/sigrone/">
               photography
             </a>
           </span>{' '}

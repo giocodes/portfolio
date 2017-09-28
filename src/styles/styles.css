@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Handlee');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Montserrat');
 
 body {
   font-family: var(--font-primary), sans-serif;
@@ -16,6 +15,7 @@ a:hover {
 }
 
 .secondary {
+ text-transform: uppercase;
  font-family: var(--font-secondary), 'Courier New', Courier, monospace; 
  font-weight: 100;
 }
@@ -101,7 +101,8 @@ a:hover {
 }
 @media screen and (max-width: 30em) {
   .Intro {
-    background-position: -160px;
+    background-position: -310px 0;
+    background-size: 1150px;
   }
 }
 
@@ -156,8 +157,8 @@ a:hover {
   --color4: #939393;
   --color5: #4E4E4E;
 
-  --font-primary: 'Raleway';
-  --font-secondary: 'Handlee';
+  --font-primary: 'Monserrat';
+  --font-secondary: 'Julius Sans One';
 }
 
 /* ATOMIC */

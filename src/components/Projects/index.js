@@ -8,7 +8,7 @@ const Projects = ({ projects }) => {
       <div className="flex flex-wrap">
         {projects.map(({ id, name, description, tags, url, label }) => (
           <article key={id} className="Project pv4 tc">
-            <h3 className="f2 fw1 color3">{name}</h3>
+            <h3 className="f2 fw1 secondary color3">{name}</h3>
             <p>{description}</p>
             <p className="color2">{tags}</p>
             <a className="f6 link dim ba ph3 pv2 mb2 dib color1" href={url}>{label}</a>

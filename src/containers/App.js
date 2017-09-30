@@ -17,17 +17,15 @@ class App extends Component {
     this.handleScroll = this.handleScroll.bind(this);
     this.addRef = this.addRef.bind(this);
     this.toggleLight = this.toggleLight.bind(this);
-    this.PostDiv;
   }
   toggleLight() {
     const colors = this.state.light
       ? [
           { name: '--color1', value: '#4E4E4E' },
           { name: '--color2', value: '#7dbd22' },
-          { name: '--color3', value: '#939393' },
+          { name: '--color3', value: '#544F46' },
           { name: '--color4', value: '#DAD9D7' },
           { name: '--color5', value: '#FDF8F4' },
-          { name: '--background', value: 'url(../assets/background-dark.jpg)' },
         ]
       : [
           { name: '--color1', value: '#FDF8F4' },
@@ -35,12 +33,11 @@ class App extends Component {
           { name: '--color3', value: '#DAD9D7' },
           { name: '--color4', value: '#939393' },
           { name: '--color5', value: '#4E4E4E' },
-          { name: '--background', value: 'url(../assets/background-dark.jpg)' },
         ];
     colors.forEach(item =>
-      document.documentElement.style.setProperty(item.name, item.value),
+      document.documentElement.style.setProperty(item.name, item.value)
     );
-    this.setState({light: !this.state.light})
+    this.setState({ light: !this.state.light });
   }
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);

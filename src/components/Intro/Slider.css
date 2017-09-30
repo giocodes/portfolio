@@ -1,0 +1,18 @@
+.Slider {
+  display: grid-inline;
+  height: 6rem;
+  overflow: hidden;
+}
+
+.Slider__Box {
+  height: 6rem;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  opacity: 1;
+  transition: margin-top ease 3s, opacity linear 1s;
+}
+
+.Slider__Box--hide {
+  margin-top: -6rem;
+  opacity: 0;
+}

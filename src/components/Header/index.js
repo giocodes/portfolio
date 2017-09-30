@@ -19,7 +19,7 @@ const Header = ({ className, toggleLight, top }) => {
         <ul className="Navigation">
           {navigation.map(({ id, label, link }) => {
             if (top && link === 'Top') {
-              return;
+              return null;
             }
             return (
               <li key={id} className="Navigation__Item">

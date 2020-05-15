@@ -22,14 +22,14 @@ const RightPanel = ({ categories, skills, newColors, phrase, pristine }) => {
       <div
         style={{
           height: '25rem',
-          backgroundImage: 'url(\'./chicago.jpg\')',
+          backgroundImage: 'url(\'./the Bay Area.jpg\')',
           backgroundSize: 'cover',
           display: 'flex',
           alignItems: 'flex-end',
           padding: '2rem'
         }}
       >
-        <h1 className="fw2 color1">Chicago</h1>
+        <h1 className="fw2 color1">the Bay Area</h1>
       </div>
       <Skills
         className={`${S.section} bg-animate bg-color1 color2`}

@@ -62,11 +62,11 @@
     {
       "component": "header",
       "heading": "portfolio",
-      "subhead": "I'm a Chicago based Full Stack developer",
+      "subhead": "I'm a the Bay Area based Full Stack developer",
       "children": [
         {
           "component": "ui/TweetButton",
-          "text": "portfolio: I'm a Chicago based Full Stack developer",
+          "text": "portfolio: I'm a the Bay Area based Full Stack developer",
           "url": "https://giocodes.github.io/portfolio/"
         },
         {
